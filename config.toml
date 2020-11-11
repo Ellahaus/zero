@@ -1,0 +1,19 @@
+baseURL = "https://Ellahaus.github.io/zero"
+title = "Zero"
+theme = "hugo-notepadium"
+copyright = "©2020 No Copyright Infringement Intended."
+
+languageCode = "id"  # for the RSS generation
+defaultContentLanguage = "id"
+
+hasCJKLanguage = false
+
+enableRobotsTXT = true
+
+[params]
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Jan 02, 2006"  # if unset, default is "2006-01-02"
+
+[params.nav]
+showCategories = false       # /categories/
+showTags = false             # /tags/
